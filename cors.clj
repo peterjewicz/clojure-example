@@ -1,3 +1,7 @@
+; Example of setting up CORS on a compojure API and ring-cors
+; Note this is ripped out a of luminus project so some of the items
+; like middleware are assuming a setup like that
+
 (ns example.cors
   (:require
             [worldbuilder.routes.services :refer [service-routes]]
@@ -6,9 +10,6 @@
             [compojure.route :as route]
             [example.env :refer [defaults]]
             [mount.core :as mount]))
-;Example of setting up CORS on a compojure API and ring-cors
-; Note this is ripped out a of luminus project so some of the items
-; like middleware are assuming a setup like that
 
 (def cors-headers
   { "Access-Control-Allow-Origin" "*"
