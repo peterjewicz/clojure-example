@@ -4,7 +4,7 @@
 
 (ns example.cors
   (:require
-            [worldbuilder.routes.services :refer [service-routes]]
+            [example.routes.services :refer [service-routes]]
             [compojure.core :refer [routes wrap-routes]]
             [example.middleware :as middleware]
             [compojure.route :as route]
