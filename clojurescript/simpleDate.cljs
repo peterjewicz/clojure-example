@@ -1,4 +1,4 @@
-; Simple example of formatting a date using Javascript and no libraries
+; Simple example of formatting a date using Clojurescript and no libraries
 ; does mm/dd/yyyy
 ; pull from project where the date is a MySQL timestamp, but should work whever the native
 ; Javascript Date can parse correclty
